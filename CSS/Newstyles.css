@@ -1,0 +1,92 @@
+
+ 
+/* universe selector 
+ h1,p,a{
+    color: brown;
+}*/
+
+ID SELECTOR
+#login{
+    background-color: aquamarine;
+}
+#signup{
+    background-color: bisque;
+}
+
+/*CLASS SELECTOR
+.u{
+    background-color: burlywood;
+    color: blueviolet;
+}*/
+*/
+
+
+h1{
+    color: rgb(56, 56, 209);
+}
+.userbtn{
+    background-color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+.post a{
+    background-color: yellow;
+    color: rgb(233, 10, 144);
+}
+nav ul li a{
+color: rgb(171, 109, 15);
+}
+
+p+h3{
+    color: brown;
+    text-decoration:  blue underline;
+    text-transform: capitalize;
+    text-rendering: geometricPrecision;
+    font-size: medium;
+    text-shadow: double;
+}
+span>button{
+    background-color: greenyellow;
+    color: darkslategray;
+}
+
+h3,button:hover{
+
+    color: white;
+    font-family: cursive ;
+}
+button+button{
+    background-color: cornflowerblue;
+    color: darkcyan;
+    text-overflow: red;
+}
+
+p:active{
+    font-family:  monospace;
+}
+input[type="radio"]:checked+label{
+    color: darkgreen;
+    font-weight: bold;
+}
+p::first-letter
+{
+    color: darkblue;
+    font-weight: 800;
+    font-size: large;
+
+}p::first-line{
+    color: black;
+    text-decoration: double;
+}
+p::selection{
+    color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+

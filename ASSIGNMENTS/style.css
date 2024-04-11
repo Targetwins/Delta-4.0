@@ -1,0 +1,67 @@
+/* Default styles for larger screens */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: #1DB954;
+	color: white;
+	padding: 10px 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  nav ul li {
+	display: inline;
+	margin-right: 20px;
+  }
+  
+  main {
+	padding: 20px;
+  }
+  
+  .playlist {
+	background-color: #f1f1f1;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  .playlist img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin-top: 10px;
+  }
+  
+  .footer-links {
+	background-color: #1DB954;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+  }
+  
+  footer {
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+	header {
+	  padding: 10px;
+	}
+  
+	nav ul li {
+	  display: block;
+	  margin: 10px 0;
+	}
+  }
+  
