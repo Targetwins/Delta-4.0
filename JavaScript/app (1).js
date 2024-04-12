@@ -1,9 +1,13 @@
+//JavaScript(Part - 1)
+
 /*console.log("Hi EveryOne!")
 let a=10;
 let b=20;
 console.log(`sum is:  ${a+b} Ruppes.`);*/
 
-/*// Template Litreals
+//JavaScript(Part - 2)
+
+/*Template Litreals
 let biscuit_1=80;
 let sugar=23;
 let output="Total sum is :"+(biscuit_1+sugar) +"Rupees"
@@ -142,7 +146,10 @@ let last_name=prompt("Enter your last Name");
 let msg=("welcome"+first_name+" "+ last_name);
 alert(msg);*/
 
-/*/ string
+
+////JavaScript(Part - 3)
+
+/*string
 let password = prompt("enter a password");
 let newpass = password.trim();
 console.log(password);
@@ -162,7 +169,7 @@ let skills=["c","c++","python","html","css","javascript","ardiuno IDE"];*/
 // Nested Array
 //let nums=[[2,3],[4,5],[8,0]];
 //let array=[['X',null ,"O"],[null,"X",null],["O",null,"X"]];
-let arr=[7,9,0,-2]
+//let arr=[7,9,0,-2]
 
 
 

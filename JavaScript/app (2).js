@@ -1,3 +1,5 @@
+//JavaScript(Part - 4)
+
 /*console.log("1");
 console.log("2");
 console.log("3");
@@ -95,6 +97,8 @@ for(list of movies){
 
     }
 }*/
+
+//JavaScript(Part - 5)
 
 /*Object Literals
 let student = {

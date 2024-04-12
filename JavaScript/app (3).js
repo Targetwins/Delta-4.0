@@ -1,3 +1,6 @@
+//JavaScript(Part - 6)
+
+
 /*function PrintName(){
     console.log("Ganesh Gowda")
 }
