@@ -102,9 +102,46 @@ const student = {
  },10000)
  */
 
+<<<<<<< HEAD:JavaScript/app (4).js
 <<<<<<< Updated upstream:JavaScript/app (4).js
 =======
 //JavaScript(Part - 8)
+=======
+//JavaScript(Part - 8)
+
+//Arrays Methods
+
+let array =[1,2,3,4,5,8];
+
+let print = function(el){
+    console.log(el);
+
+};
+array.forEach(print);
+
+array.forEach(function(el){
+    console.log(el);
+});
+
+let students =[
+    {
+        Name: "Ganesh",
+        marks:90,
+    },
+    {
+        Name: "Girish",
+        marks:91,
+    },
+    {
+        Name: "Kavya",
+        marks:90,
+    }
+
+];
+students.forEach((student)=>{
+    console.log(student.marks);
+})
+>>>>>>> 7a5d660e45eb551ad0c688ca1530a11f84547b3c:4.JavaScript/app (4).js
 
 /*/Arrays Methods
 
