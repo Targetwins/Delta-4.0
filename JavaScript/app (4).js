@@ -102,4 +102,70 @@ const student = {
  },10000)
  */
 
+<<<<<<< Updated upstream:JavaScript/app (4).js
+=======
+//JavaScript(Part - 8)
 
+/*/Arrays Methods
+
+let array =[1,2,3,4,5,8];
+
+let print = function(el){
+    console.log(el);
+
+};
+array.forEach(print);
+
+array.forEach(function(el){
+    console.log(el);
+});
+
+let students =[
+    {
+        Name: "Ganesh",
+        marks:90,
+    },
+    {
+        Name: "Girish",
+        marks:91,
+    },
+    {
+        Name: "Kavya",
+        marks:90,
+    }
+
+];
+let  cpa = students.map((el) => {
+    return el.marks/10;
+
+});
+
+students.forEach((student)=>{
+    console.log(student.marks);
+})
+>>>>>>> Stashed changes:4.JavaScript/app (4).js
+
+//Map  &  Filter
+let num =[1,2,3,4,5,6,7,8,9]
+let double =num.map((number) => {
+    return number*2;
+});
+//Filter
+let nums=[1,2,3,4,5,6,7,8,9,12,23,45,56];
+let ans = nums.filter((number) => {
+    return number % 2 ==0;
+});
+
+//Every
+[1,2,3,4,,5,6,7].every((el)=> el%1 == 0);
+*/
+//Maximum in Array
+let nums1 = [2,3,4,5,6,7,8,9,10];
+let results= nums1.reduce((max,el)=>{
+    if (el>max){
+        return el;
+    }else{
+        return max;
+    }
+})
+console.log(results);
