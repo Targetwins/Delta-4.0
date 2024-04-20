@@ -102,12 +102,8 @@ const student = {
  },10000)
  */
 
-<<<<<<< HEAD:JavaScript/app (4).js
-<<<<<<< Updated upstream:JavaScript/app (4).js
-=======
-//JavaScript(Part - 8)
-=======
-//JavaScript(Part - 8)
+
+/*/JavaScript(Part - 8)
 
 //Arrays Methods
 
@@ -141,9 +137,10 @@ let students =[
 students.forEach((student)=>{
     console.log(student.marks);
 })
->>>>>>> 7a5d660e45eb551ad0c688ca1530a11f84547b3c:4.JavaScript/app (4).js
+ 
 
-/*/Arrays Methods
+/*
+/Arrays Methods
 
 let array =[1,2,3,4,5,8];
 
@@ -180,7 +177,6 @@ let  cpa = students.map((el) => {
 students.forEach((student)=>{
     console.log(student.marks);
 })
->>>>>>> Stashed changes:4.JavaScript/app (4).js
 
 //Map  &  Filter
 let num =[1,2,3,4,5,6,7,8,9]
@@ -196,7 +192,8 @@ let ans = nums.filter((number) => {
 //Every
 [1,2,3,4,,5,6,7].every((el)=> el%1 == 0);
 */
-//Maximum in Array
+
+/*/Maximum in Array usiing reduce method
 let nums1 = [2,3,4,5,6,7,8,9,10];
 let results= nums1.reduce((max,el)=>{
     if (el>max){
@@ -206,3 +203,79 @@ let results= nums1.reduce((max,el)=>{
     }
 })
 console.log(results);
+*/
+ 
+/*/Default method 
+
+function sum(a=1,b){
+    return a+b;
+}
+console.log(sum(1,5));
+*/
+
+/*
+/Spread
+arr=[1,2,3,4,5,5,6,7,,"dagafa"];
+
+console.log(...arr);
+*/
+/*/Spreadd-array literals
+//it is only copy one array into the another array using ...arr
+arr=[1,2,3,4,5,5,6,7,,"dagafa"];
+ newarr  = [...arr];
+ console.log(newarr);
+
+ //Spread - Object Litreals
+
+ let data ={
+    email:"ganeshbs2003bs@gmail.com",
+    password:"6252766******"
+ }
+ let newdata ={...data,id:"123"}
+
+// indexwise storage
+ arr=[1,2,3,4,5,5,6,7,,"dagafa"];
+ objec1={...arr}    */
+
+
+ //Rest
+ function sum(...args){
+
+    for(let i=0;i<args.length;i++){
+        console.log("your choice is",args[i]);
+    }
+ 
+}
+function sum(...args){
+    return args.reduce((sum,el)=>sum+el);
+}
+
+function min(...args){
+    return args.reduce((min,el)=>{
+
+    if(min<el){
+        return min;
+
+    }else{
+        return el;
+    }
+    
+    })
+    
+}
+
+//Destrucring
+let names = ["gani","giri","kavya","steve","jobs"];
+let[winner,runnerup,third,...others] = names;
+
+
+/*/Destructuring (object iterals)
+let student ={
+    email:"ganeshbs2003bs@gmail.com",
+    password:"6252766******",
+    city:"pune",
+    college:"Malnad college of Engineering",
+    roll_no:14
+};
+let {city:place,email}=student;*/
+
