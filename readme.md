@@ -1,2 +1,2 @@
-![image](C:\Users\dell\Delta 4.0\resume.png)
+![image](https://github.com/Targetwins/Delta-4.0/blob/main/resume.png)
 
