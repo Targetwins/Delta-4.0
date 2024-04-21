@@ -1,8 +1,8 @@
 # Projects
 
 ## Basic Portfolio
-![Basic Portfolio](https://github.com/Targetwins/Delta-4.0/blob/main/resume.png)
-
+![Ganesh Shankar](https://github.com/Targetwins/Delta-4.0/blob/main/resume.png)
+![Girish Shankar](https://github.com/Targetwins/Delta-4.0/blob/main/girishResume.png)
 This project is a basic portfolio showcasing essential information about the owner, such as their skills, experience, and contact details. It serves as an introductory page for visitors to learn more about the owner's professional background.
 
 ## Grid and Layout
