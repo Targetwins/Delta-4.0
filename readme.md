@@ -1,1 +1,2 @@
-<img src="C:\Users\dell\Delta 4.0\resume.png"  alter ="basic protfolio">Basic Protfolio</img>
+![image](C:\Users\dell\Delta 4.0\resume.png)
+
