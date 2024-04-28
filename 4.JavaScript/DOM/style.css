@@ -1,4 +1,14 @@
-body {
+/*.red{
+  color:red;
+
+}
+.blue{
+  color: blue;
+}
+
+
+
+/*body {
   font-family: Arial;
 }
 
@@ -26,3 +36,15 @@ body {
 #description {
   background-color: antiquewhite;
 }
+*/
+body{
+  text-align: center;
+  font-size: medium;
+}
+div{
+  height: 100px;
+  width: 500px;
+  margin: auto;
+  border: solid  black 5px;
+}
+
