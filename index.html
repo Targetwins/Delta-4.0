@@ -1,0 +1,171 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Learn & become the Top 1% software developer</h1>
+        <button onclick="scrollToSection('courses')">View Courses</button>
+    </header>
+    <section id="courses">
+        <h2>New Courses & Upcoming Batches</h2>
+        <div class="course-list">
+            <div class="course-item">
+                <h3>Course 1</h3>
+                <p>Details about Course 1.</p>
+            </div>
+            <div class="course-item">
+                <h3>Course 2</h3>
+                <p>Details about Course 2.</p>
+            </div>
+        </div>
+    </section>
+    <section id="success-stories">
+        <h2>Student Success Stories</h2>
+        <div class="story-list">
+            <div class="story-item">
+                <p>Student 1's success story.</p>
+            </div>
+            <div class="story-item">
+                <p>Student 2's success story.</p>
+            </div>
+        </div>
+    </section>
+    <section id="account">
+        <h2>User Account</h2>
+        <button onclick="showLogin()">Login</button>
+        <button onclick="showSignup()">Sign Up</button>
+        <div id="login" class="modal">
+            <h3>Login</h3>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button>Login</button>
+        </div>
+        <div id="signup" class="modal">
+            <h3>Sign Up</h3>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    <footer>
+        <p>Contact us at <a href="mailto:info@apnacollege.in">info@apnacollege.in</a></p>
+        <p>Follow us on 
+            <a href="#">Facebook</a>, 
+            <a href="#">Twitter</a>, 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Button Color</title>
+<style>
+  /* Optional CSS for button styling */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<button id="colorButton">Click Me!</button>
+
+<script>
+  // Get the button element by its ID
+  const button = document.getElementById('colorButton');
+
+  // Add event listener to the button
+  button.addEventListener('click', function() {
+    // Change button color to green
+    button.style.backgroundColor = 'green';
+  });
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Input</title>
+</head>
+<body>
+
+<input type="text" id="nameInput" placeholder="Enter your name">
+<h2 id="nameHeading"></h2>
+
+<script>
+  const nameInput = document.getElementById('nameInput');
+  const nameHeading = document.getElementById('nameHeading');
+
+  // Add event listener to input element
+  nameInput.addEventListener('input', function() {
+    // Get the value entered by the user
+    const inputValue = nameInput.value;
+
+    // Remove any characters that are not letters or spaces
+    const filteredValue = inputValue.replace(/[^a-zA-Z\s]/g, '');
+
+    // Update the heading with the filtered value
+    nameHeading.textContent = filteredValue;
+  });
+</script>
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Propagation Example</title>
+</head>
+<body>
+
+<div id="outer">
+  <div id="inner">
+    <button id="button">Click Me!</button>
+  </div>
+</div>
+
+<script>
+  const outer = document.getElementById('outer');
+  const inner = document.getElementById('inner');
+  const button = document.getElementById('button');
+
+  outer.addEventListener('click', function(event) {
+    console.log('Outer Div Clicked');
+  });
+
+  inner.addEventListener('click', function(event) {
+    console.log('Inner Div Clicked');
+    // Stop propagation to outer div
+    //event.stopPropagation();
+  });
+
+  button.addEventListener('click', function(event) {
+    console.log('Button Clicked');
+  });
+</script>
+
+</body>
+</html>
+
