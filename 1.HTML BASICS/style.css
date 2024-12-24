@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ce3939;
+    font-family: Arial, sans-serif;
+}
+
+.circle-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.circle-item {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.positive-emotion {
+    background-color: #e0f7fa;
+    border-color: #00acc1;
+}
+
+.negative-emotion {
+    background-color: #ffebee;
+    border-color: #d32f2f;
+}
+
+#happiness { top: 20px; left: 50%; transform: translateX(-50%); }
+#confidence { top: 100px; right: 50px; }
+#calmness { top: 200px; right: 20px; }
+#poise { top: 300px; left: 50%; transform: translateX(-50%); }
+#enthusiasm { top: 200px; left: 20px; }
+#exhilaration { top: 100px; left: 50px; }
+#contentment { top: 400px; left: 50%; transform: translateX(-50%); }
+
+#fear { bottom: 20px; left: 50%; transform: translateX(-50%); }
+#disquiet { bottom: 100px; right: 50px; }
+#depression { bottom: 200px; right: 20px; }
+#frustration { bottom: 300px; left: 50%; transform: translateX(-50%); }
+#anxiety { bottom: 200px; left: 20px; }
+#anger { bottom: 100px; left: 50px; }

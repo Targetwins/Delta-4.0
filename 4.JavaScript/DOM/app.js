@@ -168,7 +168,7 @@ inp.addEventListener('keydown',function(event){
                 console.log("Charcter moves leftward")
                 }
         
-})*/
+})
 
 //Form events
 let form = document.querySelector("form")
