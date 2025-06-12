@@ -32,7 +32,7 @@ function ChangeColor(color,delay,nextcolorchange){
     },delay);
 }
 ChangeColor("red",1000,()=> {
-    ChangeColor("orange",1000,()=> {
+    ChangeColor("blue",1000,()=> {
         ChangeColor("pink",1000,()=> {
 
         });
